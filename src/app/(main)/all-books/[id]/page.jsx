@@ -1,8 +1,10 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import React from 'react';
-import { FaArrowCircleLeft } from 'react-icons/fa';
+import { FaStar } from 'react-icons/fa';
 import { FaArrowLeftLong } from 'react-icons/fa6';
+import { RiBookShelfLine } from 'react-icons/ri';
+import { toast } from 'react-toastify';
 
 const categoryStyles = {
     Story: 'badge-soft badge-error',
@@ -54,16 +56,18 @@ const BookDetailsPage = async ({ params }) => {
                                 {book.category}
                             </span>
                         )}
-                        <span className='badge'>Fiction</span>
-                        <span className='badge'>{book.rating}</span>
+                        <span className='badge bg-base-200 text-zinc-700'>Fiction</span>
+                        <span className='badge bg-base-200 text-zinc-700'><FaStar />{book.rating}</span>
                     </div>
                     <p className='text-zinc-700 leading-relaxed'>{book.description}</p>
                     <p className='bg-amber-100 p-5 text-zinc-700 border border-amber-200 rounded-md'>
                         <span className='text-red-800 font-bold text-xl'>{book.available_quantity} </span>
                         copies currently available to borrow
                     </p>
-                    <button className='btn btn-xs sm:btn-sm md:btn-md lg:btn-lg xl:btn-xl bg-red-900 text-white hover:bg-red-700'>
-                        Borrow This Book
+                    <button 
+                    // onClick={() => toast(`✓ Successfully borrowed "${book.title}"! `)}
+                    className='btn btn-xs sm:btn-sm md:btn-md lg:btn-lg xl:btn-xl bg-red-900 text-white hover:bg-red-700'>
+                        <RiBookShelfLine />Borrow This Book
                     </button>
                 </div>
             </div>

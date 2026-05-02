@@ -1,5 +1,6 @@
 import { Playfair, DM_Sans } from "next/font/google";
 import "./globals.css";
+import { ToastContainer } from "react-toastify";
 
 const playfair = Playfair({
   variable: "--font-playfair",
@@ -21,7 +22,9 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en" data-theme="light" className={`h-full antialiased`}>
-      <body className={`${playfair.className} ${dmSans.className} min-h-full flex flex-col`}>
+      <body
+        className={`${playfair.className} ${dmSans.className} min-h-full flex flex-col`}
+      >
         {children}
       </body>
     </html>
