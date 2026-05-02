@@ -51,7 +51,7 @@ const FeaturedBooks = async () => {
                                 )}
                                 <p className='text-sm text-zinc-400'>{book.available_quantity} copies available</p>
                                 <Link href={'/bookDetailsPage'}>
-                                    <button className='btn w-full bg-black text-white hover:bg-red-800'>View Details</button>
+                                    <button className='btn w-full bg-red-950 text-white hover:bg-red-800'>View Details</button>
                                 </Link>
                             </div>
                         </div>
