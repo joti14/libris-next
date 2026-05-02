@@ -21,8 +21,7 @@ const Banner = () => {
                         <div className="border-2 border-yellow-700 inline-block px-5 py-1 text-yellow-700 mb-4">✦ Digital Library Platform</div>
                         <h1 className="text-4xl md:text-5xl font-bold">Find Your <span className='text-yellow-700 italic'>Next Read</span> — Anywhere, Anytime</h1>
                         <p className="py-6 text-gray-200">
-                            Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem
-                            quasi. In deleniti eaque aut repudiandae et a id nisi.
+                            Explore thousands of curated books across genres. Borrow digitally, read instantly. Your literary adventure begins here.
                         </p>
                         <div className='flex gap-4'>
                             <Link href={'/all-books'}>
