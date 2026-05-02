@@ -1,3 +1,4 @@
+import Author from '@/components/Author';
 import Announcement from '@/components/shared/Announcement';
 import Banner from '@/components/shared/Banner';
 import Footer from '@/components/shared/Footer';
@@ -11,6 +12,7 @@ const MainLayout = ({ children }) => {
             <Banner />
             <Announcement />
             {children}
+            <Author />
             <Footer />
         </div>
     );

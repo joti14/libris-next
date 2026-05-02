@@ -1,6 +1,9 @@
+import FeaturedBooks from "@/components/FeaturedBooks/FeaturedBooks";
 
 export default function Home() {
   return (
-    <div>Home page</div>
+    <div>
+      <FeaturedBooks />
+    </div>
   );
 }
