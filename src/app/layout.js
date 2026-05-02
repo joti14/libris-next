@@ -24,9 +24,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en" data-theme="light" className={`h-full antialiased`}>
       <body className={`${playfair.className} ${dmSans.className} min-h-full flex flex-col`}>
-        <Navbar />
         {children}
-        <Footer />
       </body>
     </html>
   );
