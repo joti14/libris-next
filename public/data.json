@@ -1,0 +1,110 @@
+[
+  {
+    "id": 1,
+    "title": "The Midnight Library",
+    "author": "Matt Haig",
+    "description": "Between life and death there is a library with infinite books, each one the story of another life you could have lived. Nora Seed finds herself there and must decide what makes life worth living.",
+    "category": "Story",
+    "available_quantity": 6,
+    "image_url": "https://covers.openlibrary.org/b/isbn/9780525559474-L.jpg"
+  },
+  {
+    "id": 2,
+    "title": "Atomic Habits",
+    "author": "James Clear",
+    "description": "A proven framework for building good habits and breaking bad ones. James Clear reveals how tiny changes in behavior can lead to remarkable results over time.",
+    "category": "Tech",
+    "available_quantity": 4,
+    "image_url": "https://covers.openlibrary.org/b/isbn/9780735211292-L.jpg"
+  },
+  {
+    "id": 3,
+    "title": "A Brief History of Time",
+    "author": "Stephen Hawking",
+    "description": "Stephen Hawking takes us on a journey through the universe — from the Big Bang to black holes — making complex science accessible to every curious mind.",
+    "category": "Science",
+    "available_quantity": 3,
+    "image_url": "https://covers.openlibrary.org/b/isbn/9780553380163-L.jpg"
+  },
+  {
+    "id": 4,
+    "title": "The Lost Bookshop",
+    "author": "Evie Woods",
+    "description": "A cozy mystery weaving together the lives of three strangers connected by a magical bookshop that appears and disappears at will across Dublin streets.",
+    "category": "Story",
+    "available_quantity": 8,
+    "image_url": "https://covers.openlibrary.org/b/isbn/9781800248489-L.jpg"
+  },
+  {
+    "id": 5,
+    "title": "Deep Work",
+    "author": "Cal Newport",
+    "description": "Cal Newport argues that the ability to focus without distraction is the superpower of the 21st century and provides strategies to cultivate deep, meaningful work.",
+    "category": "Tech",
+    "available_quantity": 5,
+    "image_url": "https://covers.openlibrary.org/b/isbn/9781455586691-L.jpg"
+  },
+  {
+    "id": 6,
+    "title": "Sapiens",
+    "author": "Yuval Noah Harari",
+    "description": "A sweeping narrative of humanity's creation and evolution, exploring how Homo sapiens came to dominate the earth through cognitive revolution, agriculture, and science.",
+    "category": "Science",
+    "available_quantity": 9,
+    "image_url": "https://covers.openlibrary.org/b/isbn/9780062316097-L.jpg"
+  },
+  {
+    "id": 7,
+    "title": "Klara and the Sun",
+    "author": "Kazuo Ishiguro",
+    "description": "Told from the perspective of Klara, an Artificial Friend with remarkable observational qualities, this novel asks what it means to love and what it means to be human.",
+    "category": "Story",
+    "available_quantity": 7,
+    "image_url": "https://covers.openlibrary.org/b/isbn/9780593318171-L.jpg"
+  },
+  {
+    "id": 8,
+    "title": "The Pragmatic Programmer",
+    "author": "David Thomas",
+    "description": "A guide to writing better software filled with practical wisdom — from personal responsibility and career development to architectural techniques for flexible, reusable code.",
+    "category": "Tech",
+    "available_quantity": 3,
+    "image_url": "https://covers.openlibrary.org/b/isbn/9780135957059-L.jpg"
+  },
+  {
+    "id": 9,
+    "title": "The Selfish Gene",
+    "author": "Richard Dawkins",
+    "description": "Richard Dawkins revolutionizes our understanding of natural selection, arguing that genes — not organisms — are the true units of evolution in this landmark science classic.",
+    "category": "Science",
+    "available_quantity": 5,
+    "image_url": "https://covers.openlibrary.org/b/isbn/9780198788607-L.jpg"
+  },
+  {
+    "id": 10,
+    "title": "The Secret History",
+    "author": "Donna Tartt",
+    "description": "A dark literary thriller about a group of eccentric classics students who reconstruct an ancient ritual that ends in murder — and the devastating cover-up that follows.",
+    "category": "Story",
+    "available_quantity": 4,
+    "image_url": "https://covers.openlibrary.org/b/isbn/9781400031702-L.jpg"
+  },
+  {
+    "id": 11,
+    "title": "Clean Code",
+    "author": "Robert C. Martin",
+    "description": "Uncle Bob shares the best agile practices of cleaning code on the fly and teaches you how to write code that is readable, maintainable, and built to last.",
+    "category": "Tech",
+    "available_quantity": 6,
+    "image_url": "https://covers.openlibrary.org/b/isbn/9780132350884-L.jpg"
+  },
+  {
+    "id": 12,
+    "title": "The Gene",
+    "author": "Siddhartha Mukherjee",
+    "description": "From the Pulitzer Prize-winning author, an extraordinary history of the gene and a meditation on the future of our genetically altered world and what it means for humanity.",
+    "category": "Science",
+    "available_quantity": 2,
+    "image_url": "https://covers.openlibrary.org/b/isbn/9781476733524-L.jpg"
+  }
+]

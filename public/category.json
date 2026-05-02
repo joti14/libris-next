@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "name": "Story",
+    "description": "Gripping tales and unforgettable characters",
+    "icon": "📖",
+    "totalBooks": 4
+  },
+  {
+    "id": 2,
+    "name": "Tech",
+    "description": "Master the skills of the modern world",
+    "icon": "💻",
+    "totalBooks": 4
+  },
+  {
+    "id": 3,
+    "name": "Science",
+    "description": "Explore the wonders of the universe",
+    "icon": "🔬",
+    "totalBooks": 4
+  }
+]
