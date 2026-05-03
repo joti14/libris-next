@@ -6,6 +6,7 @@ import userAvatar from '@/assets/user.png';
 import Image from 'next/image';
 import { authClient } from '@/lib/auth-client';
 import { useRouter } from 'next/navigation';
+import { Avatar } from '@heroui/react';
 
 const Navbar = () => {
     const { data: session, isPending } = authClient.useSession();
@@ -41,13 +42,23 @@ const Navbar = () => {
                     : user ? (
                         <div className='flex items-center gap-2'>
                             <h2>Welcome, {user.name}</h2>
-                            <Image
+                            <div>
+                                <Avatar size="sm">
+                                    <Avatar.Image
+                                        alt={user?.name}
+                                        src={user?.image}
+                                        referrerPolicy="no-referrer"
+                                    />
+                                    <Avatar.Fallback>{user?.name.charAt(0)}</Avatar.Fallback>
+                                </Avatar>
+                            </div>
+                            {/* <Image
                                 src={user.image || userAvatar}
                                 alt='User avatar'
                                 width={35}
                                 height={35}
                                 className='rounded-full'
-                            />
+                            /> */}
                             <button
                                 onClick={handleSignOut}
                                 className='btn btn-outline btn-warning text-yellow-700 text-lg px-8 hover:text-black'

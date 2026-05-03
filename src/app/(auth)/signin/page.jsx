@@ -36,10 +36,9 @@ export default function SignInPage() {
     const handleGoogleSignIn = async () => {
         const data = await authClient.signIn.social({
             provider: "google",
-            callbackURL: '/',
         });
 
-        console.log(data, 'google data')
+        // console.log(data, 'google data')
     }
 
     return (
