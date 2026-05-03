@@ -1,5 +1,5 @@
 "use client";
-import { Check } from "@gravity-ui/icons";
+import { authClient } from "@/lib/auth-client";
 import {
   Button,
   Card,
@@ -10,97 +10,97 @@ import {
   Label,
   TextField,
 } from "@heroui/react";
+import { useState } from "react";
 import { useForm } from "react-hook-form";
+import { FaEye, FaEyeSlash } from "react-icons/fa";
+import { toast } from "react-toastify";
 
 export default function SignUpPage() {
-  const { register,
-    handleSubmit,
-    watch,
-  } = useForm();
+  const { register, handleSubmit } = useForm();
 
-  const handleSignIn = (data) => {
-    console.log(data, 'data')
-  }
+  const [showPassword, setShowPassword] = useState(false);
 
+  const handleSignIn = async (data) => {
+    const { email, name, password, image } = data;
+    // console.log(data, 'form data'); 
+
+    const { data: res, error } = await authClient.signUp.email({
+      name,
+      email,
+      password,
+      image,
+      callbackURL: "/",
+    });
+
+    // console.log(res, 'res');
+    if (error) {
+      toast.error(error.message);
+    }
+    if (res) {
+      toast.success('Signup Successful');
+    }
+  };
 
   return (
     <Card className="shadow-sm border border-slate-200 mx-auto w-125 py-10 mt-5">
       <h1 className="text-center text-2xl font-bold">Sign Up</h1>
 
       <Form className="flex w-96 mx-auto flex-col gap-4" onSubmit={handleSubmit(handleSignIn)}>
-        <TextField
-          isRequired
-          {...register("name")}
-          type="text"
-        >
+        <TextField isRequired type="text">
           <Label>Name</Label>
-          <Input placeholder="Enter your name" />
+          <Input placeholder="Enter your name" {...register("name")} />
           <FieldError />
         </TextField>
 
-        <TextField
-          isRequired
-          {...register("image")}
-          type="text"
-        >
+        <TextField isRequired type="text">
           <Label>Image URL</Label>
-          <Input placeholder="Image URL" />
+          <Input placeholder="Image URL" {...register("image")} />
           <FieldError />
         </TextField>
 
         <TextField
           isRequired
-          {...register("email")}
           type="email"
           validate={(value) => {
             if (!/^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}$/i.test(value)) {
               return "Please enter a valid email address";
             }
-
             return null;
           }}
         >
           <Label>Email</Label>
-          <Input placeholder="john@example.com" />
+          <Input placeholder="john@example.com" {...register("email")} />
           <FieldError />
         </TextField>
 
         <TextField
+          className="relative"
           isRequired
           minLength={8}
-          {...register("password")}
-          type="password"
+          type={showPassword ? 'text' : "password"}
           validate={(value) => {
-            if (value.length < 8) {
-              return "Password must be at least 8 characters";
-            }
-            if (!/[A-Z]/.test(value)) {
-              return "Password must contain at least one uppercase letter";
-            }
-            if (!/[0-9]/.test(value)) {
-              return "Password must contain at least one number";
-            }
-
+            if (value.length < 8) return "Password must be at least 8 characters";
+            if (!/[A-Z]/.test(value)) return "Password must contain at least one uppercase letter";
+            if (!/[0-9]/.test(value)) return "Password must contain at least one number";
             return null;
           }}
         >
           <Label>Password</Label>
-          <Input placeholder="Enter your password" />
+          <Input placeholder="Enter your password" {...register("password")} />
+          <span
+            className='absolute right-3 top-8 cursor-pointer'
+            onClick={() => setShowPassword(!showPassword)}>
+            {showPassword ? <FaEye className='text-lg' /> : <FaEyeSlash className='text-lg' />}
+          </span>
           <Description>
             Must be at least 8 characters with 1 uppercase and 1 number
           </Description>
           <FieldError />
         </TextField>
 
-        <div className="flex gap-2">
-          <Button type="submit" className='bg-red-800 hover:bg-red-700'>
-            <Check />
-            Submit
-          </Button>
-          <Button type="reset" variant="secondary" className='text-red-800'>
-            Reset
-          </Button>
-        </div>
+        <Button type="submit" className='w-full bg-red-800 hover:bg-red-700'>
+          Sign Up
+        </Button>
       </Form>
     </Card>
   );
