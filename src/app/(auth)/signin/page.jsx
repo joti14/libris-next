@@ -10,6 +10,7 @@ import {
     Label,
     TextField,
 } from "@heroui/react";
+import { Icon } from "@iconify/react";
 import Link from "next/link";
 import { useState } from "react";
 import { useForm } from "react-hook-form";
@@ -31,6 +32,15 @@ export default function SignInPage() {
         });
         console.log(res, error);
     };
+
+    const handleGoogleSignIn = async () => {
+        const data = await authClient.signIn.social({
+            provider: "google",
+            callbackURL: '/',
+        });
+
+        console.log(data, 'google data')
+    }
 
     return (
         <Card className="shadow-sm border border-slate-200 mx-auto w-125 py-10 mt-5">
@@ -54,7 +64,7 @@ export default function SignInPage() {
                 </TextField>
 
                 <TextField
-                    className="relative"  
+                    className="relative"
                     isRequired
                     minLength={8}
                     type={showPassword ? 'text' : "password"}
@@ -82,8 +92,18 @@ export default function SignInPage() {
                 <Button type="submit" className='w-full bg-red-800 hover:bg-red-700'>
                     Sign In
                 </Button>
+                <p className="text-center">Or</p>
+                <Button
+                    onClick={handleGoogleSignIn}
+                    className="w-full"
+                    variant="tertiary"
+                >
+                    <Icon icon="devicon:google" />
+                    Sign in with Google
+                </Button>
 
-                <p>Don't have an Account? <Link href={'/signup'} className="text-red-800">Signup</Link></p>
+                <p className="text-center">Don't have an Account? <Link href={'/signup'} className="text-red-800">Signup</Link></p>
+
             </Form>
         </Card>
     );
