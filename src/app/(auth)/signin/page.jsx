@@ -15,6 +15,7 @@ import Link from "next/link";
 import { useState } from "react";
 import { useForm } from "react-hook-form";
 import { FaEye, FaEyeSlash } from "react-icons/fa";
+import { toast } from "react-toastify";
 
 export default function SignInPage() {
     const { register, handleSubmit } = useForm();
@@ -88,7 +89,14 @@ export default function SignInPage() {
                     <FieldError />
                 </TextField>
 
-                <Button type="submit" className='w-full bg-red-800 hover:bg-red-700'>
+                <Button
+                onClick={() =>
+                            toast.success(`Signed In Successfully"!`,{
+                                className:"bg-zinc-900 text-slate-300 rounded-2xl border-zinc-700 "
+                                
+                        })
+                    }
+                 type="submit" className='w-full bg-red-800 hover:bg-red-700'>
                     Sign In
                 </Button>
                 <p className="text-center">Or</p>

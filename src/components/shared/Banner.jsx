@@ -32,7 +32,7 @@ const Banner = () => {
                             </Link>
                         </div>
                     </div>
-                    <div className="hidden md:block relative w-[400px] h-[400px]">
+                    <div className="hidden md:block relative w-100 h-100">
                         <Image
                             src={books}
                             alt="Books"

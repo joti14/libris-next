@@ -1,4 +1,6 @@
-import React from 'react';
+'use client'
+
+import { toast } from "react-toastify";
 
 const Author = () => {
     return (
@@ -19,7 +21,16 @@ const Author = () => {
                         </div>
                     </div>
                     <div className='flex items-center justify-center'>
-                        <button className='btn bg-red-900 text-white'>Meet The Author</button>
+                        <button
+                            onClick={() =>
+                                toast(`Author Profile Coming Soon!`, {
+                                    className: "bg-zinc-900 text-slate-300 rounded-2xl border-zinc-700 "
+
+                                })
+                            }
+                            className='btn bg-red-900 text-white'>
+                            Meet The Author
+                        </button>
                     </div>
                 </div>
             </div>

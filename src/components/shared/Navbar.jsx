@@ -12,6 +12,7 @@ const Navbar = () => {
     const { data: session, isPending } = authClient.useSession();
     const user = session?.user;
     const router = useRouter();
+    // console.log(session.user, 'nav session user')
 
     const handleSignOut = async () => {
         await authClient.signOut();

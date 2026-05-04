@@ -1,86 +1,46 @@
-'use client';
-import React, { useState } from 'react';
-import { Checkbox, CheckboxGroup, Description, Label, Surface } from "@heroui/react";
-import { usePathname, useSearchParams, useRouter } from 'next/navigation';
+import Link from "next/link";
 
-const FilterBooks = () => {
-    const searchParams = useSearchParams();
-    const router = useRouter();
-    const pathname = usePathname();
-
-    const getInitialCategories = () => {
-        const categories = searchParams.getAll('category');
-        return categories.length > 0 ? categories : ['all'];
-    };
-
-    const [selectedCategories, setSelectedCategories] = useState(getInitialCategories);
-
-    const handleCategoryChange = (values) => {
-        let newValues = values;
-
-        if (values.includes('all')) {
-            newValues = ['all'];
-        } else if (values.length === 0) {
-            newValues = ['all'];
-        }
-
-        setSelectedCategories(newValues);
-        const params = new URLSearchParams(searchParams);
-
-        const filteredValues = newValues.filter(v => v !== 'all');
-
-        params.delete('category');
-
-        filteredValues.forEach(cat => {
-            params.append('category', cat);
-        });
-
-        router.push(`${pathname}?${params.toString()}`);
-    };
+const FilterBooks = async ({ activeCategory }) => {
+    const res = await fetch('https://libris-next.vercel.app/category.json');
+    const categories = await res.json();
 
     return (
-        <Surface className="w-full rounded-3xl p-6 border border-slate-100 bg-base-100 shadow-sm">
-            <CheckboxGroup
-                name="categories"
-                value={selectedCategories}
-                onChange={handleCategoryChange}
-                variant="secondary"
-            >
-                <Label className='text-xl text-black'>Filter by Category</Label>
-                <Checkbox value="all">
-                    <Checkbox.Control>
-                        <Checkbox.Indicator />
-                    </Checkbox.Control>
-                    <Checkbox.Content>
-                        <Label>All Books</Label>
-                    </Checkbox.Content>
-                </Checkbox>
-                <Checkbox value="Story">
-                    <Checkbox.Control>
-                        <Checkbox.Indicator />
-                    </Checkbox.Control>
-                    <Checkbox.Content>
-                        <Label>Story</Label>
-                    </Checkbox.Content>
-                </Checkbox>
-                <Checkbox value="Tech">
-                    <Checkbox.Control>
-                        <Checkbox.Indicator />
-                    </Checkbox.Control>
-                    <Checkbox.Content>
-                        <Label>Tech</Label>
-                    </Checkbox.Content>
-                </Checkbox>
-                <Checkbox value="Science">
-                    <Checkbox.Control>
-                        <Checkbox.Indicator />
-                    </Checkbox.Control>
-                    <Checkbox.Content>
-                        <Label>Science</Label>
-                    </Checkbox.Content>
-                </Checkbox>
-            </CheckboxGroup>
-        </Surface>
+        <div className="w-full rounded-2xl border border-slate-200 bg-white p-6 shadow-sm">
+            <h2 className="text-xl font-bold text-black">Filter Categories</h2>
+            <ul className="flex flex-col gap-3 mt-6">
+                <li
+                    className={`rounded-md font-bold text-base
+                        ${!activeCategory
+                            ? 'bg-yellow-700 text-white'
+                            : 'hover:bg-slate-100'
+                        }`}
+                >
+                    <Link
+                        href="/all-books"
+                        className="block p-2"
+                    >
+                        All Books
+                    </Link>
+                </li>
+                {categories.map(category => (
+                    <li
+                        key={category.id}
+                        className={`rounded-md font-bold text-base
+                            ${activeCategory === category.name.toLowerCase()
+                                ? 'bg-yellow-700 text-white'
+                                : 'hover:bg-slate-100'
+                            }`}
+                    >
+                        <Link
+                            href={`?category=${category.name.toLowerCase()}`}
+                            className="block p-2"
+                        >
+                            {category.name}
+                        </Link>
+                    </li>
+                ))}
+            </ul>
+        </div>
     );
 };
 

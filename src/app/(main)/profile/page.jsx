@@ -7,7 +7,7 @@ import React from 'react';
 const MyProfilePage = () => {
     const { data: session, isPending } = authClient.useSession();
     const user = session?.user;
-    console.log(user)
+    // console.log(user, 'user data')
     return (
         <div>
             <Card className='max-w-96 mx-auto flex flex-col items-center shadow-sm border-slate-200 mt-10'>
