@@ -16,7 +16,7 @@ const getBooks = async () => {
 
 const AllBooksPage = async ({ searchParams }) => {
   const books = await getBooks();
-  const { category, search } = searchParams;
+  const { category, search } = await searchParams;
 
   let filteredBooks = books;
 
