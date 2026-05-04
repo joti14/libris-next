@@ -16,16 +16,25 @@
       "end_timestamp": "1970-01-01T06:00:00+06:00",
       "markdown_size_bytes": 7554,
       "provider": "copilotide",
-      "last_updated": "2026-05-03T19:32:17Z"
+      "last_updated": "2026-05-04T10:36:18Z"
+    },
+    "c8fa0722-66d0-44ab-8d55-8e62b73c4401": {
+      "user_message_count": 2,
+      "agent_message_count": 28,
+      "start_timestamp": "2026-05-04T16:35:06+06:00",
+      "end_timestamp": "2026-05-04T16:35:06+06:00",
+      "markdown_size_bytes": 14536,
+      "provider": "cursoride",
+      "last_updated": "2026-05-04T10:40:21Z"
     },
     "ece2752c-1ead-4517-b122-74517cc157a6": {
-      "user_message_count": 4,
-      "agent_message_count": 2,
+      "user_message_count": 17,
+      "agent_message_count": 17,
       "start_timestamp": "2026-05-04T00:39:38+06:00",
       "end_timestamp": "1970-01-01T06:00:00+06:00",
-      "markdown_size_bytes": 1259,
+      "markdown_size_bytes": 9001,
       "provider": "copilotide",
-      "last_updated": "2026-05-03T19:32:17Z"
+      "last_updated": "2026-05-04T10:36:18Z"
     }
   }
 }

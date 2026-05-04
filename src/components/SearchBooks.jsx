@@ -22,7 +22,7 @@ const SearchBooks = () => {
                     <SearchField.Group>
                         <SearchField.SearchIcon />
                         <SearchField.Input
-                            className="w-80"
+                            className="w-60 sm:w-85 text-xs sm:text-base"
                             placeholder="Search books by title or author..."
                             value={searchInp}
                             onChange={e => setSearchInp(e.target.value)}
@@ -35,7 +35,7 @@ const SearchBooks = () => {
                 </SearchField>
                 <button
                     onClick={handleSearch}
-                    className="btn bg-red-800 text-white hover:bg-red-700 absolute right-0 h-full rounded-l-none"
+                    className="text-xs sm:text-base px-2 sm:px-3 btn bg-red-800 text-white hover:bg-red-700 absolute right-0 h-full rounded-l-none"
                 >
                     Search
                 </button>

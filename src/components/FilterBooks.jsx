@@ -5,11 +5,11 @@ const FilterBooks = async ({ activeCategory }) => {
     const categories = await res.json();
 
     return (
-        <div className="w-full rounded-2xl border border-slate-200 bg-white p-6 shadow-sm">
-            <h2 className="text-xl font-bold text-black">Filter Categories</h2>
-            <ul className="flex flex-col gap-3 mt-6">
+        <div className="w-full rounded-2xl border border-slate-200 bg-white p-3 sm:p-4 lg:p-6 shadow-sm">
+            <h2 className="text-base sm:text-lg lg:text-xl font-bold text-black">Filter Categories</h2>
+            <ul className="flex flex-col gap-2 lg:gap-3 mt-4 lg:mt-6">
                 <li
-                    className={`rounded-md font-bold text-base
+                    className={`rounded-md font-bold text-sm lg:text-base
                         ${!activeCategory
                             ? 'bg-yellow-700 text-white'
                             : 'hover:bg-slate-100'
@@ -25,7 +25,7 @@ const FilterBooks = async ({ activeCategory }) => {
                 {categories.map(category => (
                     <li
                         key={category.id}
-                        className={`rounded-md font-bold text-base
+                        className={`rounded-md font-bold text-sm lg:text-base
                             ${activeCategory === category.name.toLowerCase()
                                 ? 'bg-yellow-700 text-white'
                                 : 'hover:bg-slate-100'

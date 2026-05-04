@@ -1,5 +1,6 @@
 import { Playfair, DM_Sans } from "next/font/google";
 import "./globals.css";
+import 'animate.css';
 import ToastProvider from "@/components/ToastProvider";
 
 
