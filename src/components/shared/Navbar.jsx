@@ -23,9 +23,9 @@ const Navbar = () => {
         <div className='bg-[#1a1208]'>
             <div className='flex justify-between items-center container mx-auto py-5 text-white px-4'>
                 <div>
-                    <h2 className='animate__animated animate__bounce text-4xl font-bold'>
+                    <Link href={'/'} className='animate__animated animate__bounce text-4xl font-bold'>
                         Lib<span className='text-yellow-700'>ris</span>
-                    </h2>
+                    </Link>
                 </div>
 
                 <div className='hidden lg:block'>

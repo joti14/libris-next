@@ -16,7 +16,7 @@ const Banner = () => {
             <Image
                 src={banner}
                 alt="Banner"
-                fill
+                fill    
                 sizes="100vw"
                 priority
                 className="object-cover"

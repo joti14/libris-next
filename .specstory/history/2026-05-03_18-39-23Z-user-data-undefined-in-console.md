@@ -269,3 +269,1159 @@ _**Agent (copilot/auto)**_
 
 
 ```
+
+
+---
+
+_**User (2026-05-04 10:48:08Z)**_
+
+[Terminal 0619021f-e2d6-4485-9c6f-c34804e7a519 notification: command completed with exit code 1. Use send_to_terminal to send another command or kill_terminal to stop it.]
+Terminal output:
+jsx:10:1
+Module not found: Can't resolve './AnimatedIn'
+   8 | import { RiBookShelfLine } from 'react-icons/ri';
+   9 | import { toast } from 'react-toastify';
+> 10 | import AnimatedIn from './AnimatedIn';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  11 |
+  12 | const categoryStyles = {
+  13 |     Story: 'badge-soft badge-error',
+
+
+
+Import trace:
+  Server Component:
+    ./Desktop/Programming Hero/Milestone 8/libris-next/src/components/BookDetails.jsx
+    ./Desktop/Programming Hero/Milestone 8/libris-next/src/app/(main)/all-books/[id]/page.jsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./Desktop/Programming Hero/Milestone 8/libris-next/src/components/BookDetails.jsx:10:1
+Module not found: Can't resolve './AnimatedIn'
+   8 | import { RiBookShelfLine } from 'react-icons/ri';
+   9 | import { toast } from 'react-toastify';
+> 10 | import AnimatedIn from './AnimatedIn';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  11 |
+  12 | const categoryStyles = {
+  13 |     Story: 'badge-soft badge-error',
+
+
+
+Import trace:
+  Server Component:
+    ./Desktop/Programming Hero/Milestone 8/libris-next/src/components/BookDetails.jsx
+    ./Desktop/Programming Hero/Milestone 8/libris-next/src/app/(main)/all-books/[id]/page.jsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./Desktop/Programming Hero/Milestone 8/libris-next/src/components/BookDetails.jsx:10:1
+Module not found: Can't resolve './AnimatedIn'
+   8 | import { RiBookShelfLine } from 'react-icons/ri';
+   9 | import { toast } from 'react-toastify';
+> 10 | import AnimatedIn from './AnimatedIn';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  11 |
+  12 | const categoryStyles = {
+  13 |     Story: 'badge-soft badge-error',
+
+
+
+Import trace:
+  Server Component:
+    ./Desktop/Programming Hero/Milestone 8/libris-next/src/components/BookDetails.jsx
+    ./Desktop/Programming Hero/Milestone 8/libris-next/src/app/(main)/all-books/[id]/page.jsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./Desktop/Programming Hero/Milestone 8/libris-next/src/components/BookDetails.jsx:10:1
+Module not found: Can't resolve './AnimatedIn'
+   8 | import { RiBookShelfLine } from 'react-icons/ri';
+   9 | import { toast } from 'react-toastify';
+> 10 | import AnimatedIn from './AnimatedIn';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  11 |
+  12 | const categoryStyles = {
+  13 |     Story: 'badge-soft badge-error',
+
+
+
+Import trace:
+  Server Component:
+    ./Desktop/Programming Hero/Milestone 8/libris-next/src/components/BookDetails.jsx
+    ./Desktop/Programming Hero/Milestone 8/libris-next/src/app/(main)/all-books/[id]/page.jsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./Desktop/Programming Hero/Milestone 8/libris-next/src/components/BookDetails.jsx:10:1
+Module not found: Can't resolve './AnimatedIn'
+   8 | import { RiBookShelfLine } from 'react-icons/ri';
+   9 | import { toast } from 'react-toastify';
+> 10 | import AnimatedIn from './AnimatedIn';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  11 |
+  12 | const categoryStyles = {
+  13 |     Story: 'badge-soft badge-error',
+
+
+
+Import trace:
+  Server Component:
+    ./Desktop/Programming Hero/Milestone 8/libris-next/src/components/BookDetails.jsx
+    ./Desktop/Programming Hero/Milestone 8/libris-next/src/app/(main)/all-books/[id]/page.jsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./Desktop/Programming Hero/Milestone 8/libris-next/src/components/BookDetails.jsx:10:1
+Module not found: Can't resolve './AnimatedIn'
+   8 | import { RiBookShelfLine } from 'react-icons/ri';
+   9 | import { toast } from 'react-toastify';
+> 10 | import AnimatedIn from './AnimatedIn';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  11 |
+  12 | const categoryStyles = {
+  13 |     Story: 'badge-soft badge-error',
+
+
+
+Import trace:
+  Server Component:
+    ./Desktop/Programming Hero/Milestone 8/libris-next/src/components/BookDetails.jsx
+    ./Desktop/Programming Hero/Milestone 8/libris-next/src/app/(main)/all-books/[id]/page.jsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./Desktop/Programming Hero/Milestone 8/libris-next/src/app/(main)/all-books/page.jsx:4:1
+Module not found: Can't resolve '@/components/AnimatedIn'
+  2 | import FilterBooks from '@/components/FilterBooks';
+  3 | import SearchBooks from '@/components/SearchBooks';
+> 4 | import AnimatedIn from '@/components/AnimatedIn';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import React from 'react';
+  6 |
+  7 | const getBooks = async () => {
+
+Import map: aliased to relative './src/components/AnimatedIn' inside of [project]/Desktop/Programming Hero/Milestone 8/libris-next
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./Desktop/Programming Hero/Milestone 8/libris-next/src/app/(main)/all-books/page.jsx:4:1
+Module not found: Can't resolve '@/components/AnimatedIn'
+  2 | import FilterBooks from '@/components/FilterBooks';
+  3 | import SearchBooks from '@/components/SearchBooks';
+> 4 | import AnimatedIn from '@/components/AnimatedIn';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import React from 'react';
+  6 |
+  7 | const getBooks = async () => {
+
+Import map: aliased to relative './src/components/AnimatedIn' inside of [project]/Desktop/Programming Hero/Milestone 8/libris-next
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./Desktop/Programming Hero/Milestone 8/libris-next/src/app/(main)/all-books/page.jsx:4:1
+Module not found: Can't resolve '@/components/AnimatedIn'
+  2 | import FilterBooks from '@/components/FilterBooks';
+  3 | import SearchBooks from '@/components/SearchBooks';
+> 4 | import AnimatedIn from '@/components/AnimatedIn';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import React from 'react';
+  6 |
+  7 | const getBooks = async () => {
+
+Import map: aliased to relative './src/components/AnimatedIn' inside of [project]/Desktop/Programming Hero/Milestone 8/libris-next
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./Desktop/Programming Hero/Milestone 8/libris-next/src/app/(main)/all-books/page.jsx:4:1
+Module not found: Can't resolve '@/components/AnimatedIn'
+  2 | import FilterBooks from '@/components/FilterBooks';
+  3 | import SearchBooks from '@/components/SearchBooks';
+> 4 | import AnimatedIn from '@/components/AnimatedIn';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import React from 'react';
+  6 |
+  7 | const getBooks = async () => {
+
+Import map: aliased to relative './src/components/AnimatedIn' inside of [project]/Desktop/Programming Hero/Milestone 8/libris-next
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./Desktop/Programming Hero/Milestone 8/libris-next/src/app/(main)/all-books/page.jsx:4:1
+Module not found: Can't resolve '@/components/AnimatedIn'
+  2 | import FilterBooks from '@/components/FilterBooks';
+  3 | import SearchBooks from '@/components/SearchBooks';
+> 4 | import AnimatedIn from '@/components/AnimatedIn';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import React from 'react';
+  6 |
+  7 | const getBooks = async () => {
+
+Import map: aliased to relative './src/components/AnimatedIn' inside of [project]/Desktop/Programming Hero/Milestone 8/libris-next
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./Desktop/Programming Hero/Milestone 8/libris-next/src/app/(main)/all-books/page.jsx:4:1
+Module not found: Can't resolve '@/components/AnimatedIn'
+  2 | import FilterBooks from '@/components/FilterBooks';
+  3 | import SearchBooks from '@/components/SearchBooks';
+> 4 | import AnimatedIn from '@/components/AnimatedIn';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import React from 'react';
+  6 |
+  7 | const getBooks = async () => {
+
+Import map: aliased to relative './src/components/AnimatedIn' inside of [project]/Desktop/Programming Hero/Milestone 8/libris-next
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+✓ Compiled in 1076ms
+⨯ ./Desktop/Programming Hero/Milestone 8/libris-next/src/app/(main)/all-books/page.jsx:4:1
+Module not found: Can't resolve '@/components/AnimatedIn'
+  2 | import FilterBooks from '@/components/FilterBooks';
+  3 | import SearchBooks from '@/components/SearchBooks';
+> 4 | import AnimatedIn from '@/components/AnimatedIn';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import React from 'react';
+  6 |
+  7 | const getBooks = async () => {
+
+Import map: aliased to relative './src/components/AnimatedIn' inside of [project]/Desktop/Programming Hero/Milestone 8/libris-next
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+ GET /all-books 500 in 311ms (next.js: 262ms, application-code: 50ms)
+⨯ ./Desktop/Programming Hero/Milestone 8/libris-next/src/app/(main)/all-books/page.jsx:4:1
+Module not found: Can't resolve '@/components/AnimatedIn'
+  2 | import FilterBooks from '@/components/FilterBooks';
+  3 | import SearchBooks from '@/components/SearchBooks';
+> 4 | import AnimatedIn from '@/components/AnimatedIn';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import React from 'react';
+  6 |
+  7 | const getBooks = async () => {
+
+Import map: aliased to relative './src/components/AnimatedIn' inside of [project]/Desktop/Programming Hero/Milestone 8/libris-next
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+ GET /all-books 500 in 103ms (next.js: 40ms, application-code: 63ms)
+⨯ ./Desktop/Programming Hero/Milestone 8/libris-next/src/app/(main)/all-books/page.jsx:4:1
+Module not found: Can't resolve '@/components/AnimatedIn'
+  2 | import FilterBooks from '@/components/FilterBooks';
+  3 | import SearchBooks from '@/components/SearchBooks';
+> 4 | import AnimatedIn from '@/components/AnimatedIn';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import React from 'react';
+  6 |
+  7 | const getBooks = async () => {
+
+Import map: aliased to relative './src/components/AnimatedIn' inside of [project]/Desktop/Programming Hero/Milestone 8/libris-next
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./Desktop/Programming Hero/Milestone 8/libris-next/src/app/(main)/all-books/page.jsx:4:1
+Module not found: Can't resolve '@/components/AnimatedIn'
+  2 | import FilterBooks from '@/components/FilterBooks';
+  3 | import SearchBooks from '@/components/SearchBooks';
+> 4 | import AnimatedIn from '@/components/AnimatedIn';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import React from 'react';
+  6 |
+  7 | const getBooks = async () => {
+
+Import map: aliased to relative './src/components/AnimatedIn' inside of [project]/Desktop/Programming Hero/Milestone 8/libris-next
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+ GET /all-books 500 in 123ms (next.js: 57ms, application-code: 65ms)
+ GET /all-books 500 in 213ms (next.js: 108ms, application-code: 106ms)
+[browser] Uncaught Error: ./Desktop/Programming Hero/Milestone 8/libris-next/src/components/BookDetails.jsx:10:1
+Module not found: Can't resolve './AnimatedIn'
+   8 | import { RiBookShelfLine } from 'react-icons/ri';
+   9 | import { toast } from 'react-toastify';
+> 10 | import AnimatedIn from './AnimatedIn';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  11 |
+  12 | const categoryStyles = {
+  13 |     Story: 'badge-soft badge-error',
+
+
+
+Import trace:
+  Server Component:
+    ./Desktop/Programming Hero/Milestone 8/libris-next/src/components/BookDetails.jsx
+    ./Desktop/Programming Hero/Milestone 8/libris-next/src/app/(main)/all-books/[id]/page.jsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+    at <unknown> (Error: ./Desktop/Programming Hero/Milestone 8/libris-next/src/components/BookDetails.jsx:10:1)
+    at <unknown> (https://nextjs.org/docs/messages/module-not-found)
+    at <unknown> (Error: (./Desktop/Programming Hero/Milestone 8/libris-next/src/components/BookDetails.jsx:10:1)
+    at <unknown> (https://nextjs.org/docs/messages/module-not-found)
+⨯ ./Desktop/Programming Hero/Milestone 8/libris-next/src/components/BookDetails.jsx:10:1
+Module not found: Can't resolve './AnimatedIn'
+   8 | import { RiBookShelfLine } from 'react-icons/ri';
+   9 | import { toast } from 'react-toastify';
+> 10 | import AnimatedIn from './AnimatedIn';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  11 |
+  12 | const categoryStyles = {
+  13 |     Story: 'badge-soft badge-error',
+
+
+
+Import trace:
+  Server Component:
+    ./Desktop/Programming Hero/Milestone 8/libris-next/src/components/BookDetails.jsx
+    ./Desktop/Programming Hero/Milestone 8/libris-next/src/app/(main)/all-books/[id]/page.jsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./Desktop/Programming Hero/Milestone 8/libris-next/src/components/BookDetails.jsx:10:1
+Module not found: Can't resolve './AnimatedIn'
+   8 | import { RiBookShelfLine } from 'react-icons/ri';
+   9 | import { toast } from 'react-toastify';
+> 10 | import AnimatedIn from './AnimatedIn';
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  11 |
+  12 | const categoryStyles = {
+  13 |     Story: 'badge-soft badge-error',
+
+
+
+Import trace:
+  Server Component:
+    ./Desktop/Programming Hero/Milestone 8/libris-next/src/components/BookDetails.jsx
+    ./Desktop/Programming Hero/Milestone 8/libris-next/src/app/(main)/all-books/[id]/page.jsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./Desktop/Programming Hero/Milestone 8/libris-next/src/components/BookDetails.jsx:12:1
+Module not found: Can't resolve './AnimatedIn'
+  10 | import AnimatedIn from './AnimatedIn';
+  11 |
+> 12 | const categoryStyles = {
+     | ^^^^^^^^^^^^^^^^^^^^^^^
+> 13 |     Story: 'badge-soft badge-error',
+     | ^^^^^^^^^^^^
+  14 |     Tech: 'badge-soft badge-success',
+  15 |     Science: 'badge-soft badge-info',
+  16 | };
+
+
+
+Import trace:
+  Server Component:
+    ./Desktop/Programming Hero/Milestone 8/libris-next/src/components/BookDetails.jsx
+    ./Desktop/Programming Hero/Milestone 8/libris-next/src/app/(main)/all-books/[id]/page.jsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./Desktop/Programming Hero/Milestone 8/libris-next/src/components/BookDetails.jsx:12:1
+Module not found: Can't resolve './AnimatedIn'
+  10 | import AnimatedIn from './AnimatedIn';
+  11 |
+> 12 | const categoryStyles = {
+     | ^^^^^^^^^^^^^^^^^^^^^^^
+> 13 |     Story: 'badge-soft badge-error',
+     | ^^^^^^^^^^^^
+  14 |     Tech: 'badge-soft badge-success',
+  15 |     Science: 'badge-soft badge-info',
+  16 | };
+
+
+
+Import trace:
+  Server Component:
+    ./Desktop/Programming Hero/Milestone 8/libris-next/src/components/BookDetails.jsx
+    ./Desktop/Programming Hero/Milestone 8/libris-next/src/app/(main)/all-books/[id]/page.jsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./Desktop/Programming Hero/Milestone 8/libris-next/src/app/(main)/all-books/page.jsx:4:1
+Module not found: Can't resolve '@/components/AnimatedIn'
+  2 | import FilterBooks from '@/components/FilterBooks';
+  3 | import SearchBooks from '@/components/SearchBooks';
+> 4 | import AnimatedIn from '@/components/AnimatedIn';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import React from 'react';
+  6 |
+  7 | const getBooks = async () => {
+
+Import map: aliased to relative './src/components/AnimatedIn' inside of [project]/Desktop/Programming Hero/Milestone 8/libris-next
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+ GET /all-books 500 in 324ms (next.js: 244ms, application-code: 80ms)
+[browser] Uncaught Error: ./Desktop/Programming Hero/Milestone 8/libris-next/src/components/BookDetails.jsx:28:19
+Expected '</', got 'jsx text'
+  26 |                 </Link>
+  27 |                 <h3 className="font-bold text-2xl text-red-800">Book D...
+> 28 |             </div>
+     |                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 29 |
+     | ^
+> 30 |             <div className="max-w-5xl mx-auto py-15 flex gap-10">
+     | ^^^^^^^^^^^^
+  31 |                 <div className="shrink-0">
+  32 |                     <Image
+  33 |                         src={book.image_url}
+
+Parsing ecmascript source code failed
+
+Generated code of loaders [next/dist/build/babel/loader] transform of file content of Desktop/Programming Hero/Milestone 8/libris-next/src/components/BookDetails.jsx:
+./Desktop/Programming Hero/Milestone 8/libris-next/src/components/BookDetails.jsx:28:19
+  26 |                 </Link>
+  27 |                 <h3 className="font-bold text-2xl text-red-800">Book D...
+> 28 |             </div>
+     |                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 29 |
+     | ^
+> 30 |             <div className="max-w-5xl mx-auto py-15 flex gap-10">
+     | ^^^^^^^^^^^^
+  31 |                 <div className="shrink-0">
+  32 |                     <Image
+  33 |                         src={book.image_url}
+
+Import trace:
+  Server Component:
+    ./Desktop/Programming Hero/Milestone 8/libris-next/src/components/BookDetails.jsx
+    ./Desktop/Programming Hero/Milestone 8/libris-next/src/app/(main)/all-books/[id]/page.jsx
+
+
+    at <unknown> (Error: ./Desktop/Programming Hero/Milestone 8/libris-next/src/components/BookDetails.jsx:28:19)
+    at <unknown> (./Desktop/Programming Hero/Milestone 8/libris-next/src/components/BookDetails.jsx:28:19)
+    at <unknown> (Error: (./Desktop/Programming Hero/Milestone 8/libris-next/src/components/BookDetails.jsx:28:19)
+    at <unknown> (./Desktop/Programming Hero/Milestone 8/libris-next/src/components/BookDetails.jsx:28:19)
+✓ Compiled in 4.7s
+⨯ ./Desktop/Programming Hero/Milestone 8/libris-next/src/app/(main)/all-books/page.jsx:4:1
+Module not found: Can't resolve '@/components/AnimatedIn'
+  2 | import FilterBooks from '@/components/FilterBooks';
+  3 | import SearchBooks from '@/components/SearchBooks';
+> 4 | import AnimatedIn from '@/components/AnimatedIn';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import React from 'react';
+  6 |
+  7 | const getBooks = async () => {
+
+Import map: aliased to relative './src/components/AnimatedIn' inside of [project]/Desktop/Programming Hero/Milestone 8/libris-next
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+ GET /all-books 500 in 157ms (next.js: 114ms, application-code: 43ms)
+[browser] Uncaught Error: ./Desktop/Programming Hero/Milestone 8/libris-next/src/app/(main)/all-books/page.jsx:4:1
+Module not found: Can't resolve '@/components/AnimatedIn'
+  2 | import FilterBooks from '@/components/FilterBooks';
+  3 | import SearchBooks from '@/components/SearchBooks';
+> 4 | import AnimatedIn from '@/components/AnimatedIn';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import React from 'react';
+  6 |
+  7 | const getBooks = async () => {
+
+Import map: aliased to relative './src/components/AnimatedIn' inside of [project]/Desktop/Programming Hero/Milestone 8/libris-next
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+    at <unknown> (Error: ./Desktop/Programming Hero/Milestone 8/libris-next/src/app/(main)/all-books/page.jsx:4:1)
+    at <unknown> (https://nextjs.org/docs/messages/module-not-found)
+    at <unknown> (Error: (./Desktop/Programming Hero/Milestone 8/libris-next/src/app/(main)/all-books/page.jsx:4:1)
+    at <unknown> (https://nextjs.org/docs/messages/module-not-found)
+[browser] ./Desktop/Programming Hero/Milestone 8/libris-next/src/app/(main)/all-books/page.jsx:4:1
+Module not found: Can't resolve '@/components/AnimatedIn'
+  2 | import FilterBooks from '@/components/FilterBooks';
+  3 | import SearchBooks from '@/components/SearchBooks';
+> 4 | import AnimatedIn from '@/components/AnimatedIn';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import React from 'react';
+  6 |
+  7 | const getBooks = async () => {
+
+Import map: aliased to relative './src/components/AnimatedIn' inside of [project]/Desktop/Programming Hero/Milestone 8/libris-next
+
+https://nextjs.org/docs/messages/module-not-found 
+[browser] ./Desktop/Programming Hero/Milestone 8/libris-next/src/app/(main)/all-books/page.jsx:4:1
+Module not found: Can't resolve '@/components/AnimatedIn'
+  2 | import FilterBooks from '@/components/FilterBooks';
+  3 | import SearchBooks from '@/components/SearchBooks';
+> 4 | import AnimatedIn from '@/components/AnimatedIn';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import React from 'react';
+  6 |
+  7 | const getBooks = async () => {
+
+Import map: aliased to relative './src/components/AnimatedIn' inside of [project]/Desktop/Programming Hero/Milestone 8/libris-next
+
+https://nextjs.org/docs/messages/module-not-found 
+[browser] ./Desktop/Programming Hero/Milestone 8/libris-next/src/app/(main)/all-books/page.jsx:4:1
+Module not found: Can't resolve '@/components/AnimatedIn'
+  2 | import FilterBooks from '@/components/FilterBooks';
+  3 | import SearchBooks from '@/components/SearchBooks';
+> 4 | import AnimatedIn from '@/components/AnimatedIn';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import React from 'react';
+  6 |
+  7 | const getBooks = async () => {
+
+Import map: aliased to relative './src/components/AnimatedIn' inside of [project]/Desktop/Programming Hero/Milestone 8/libris-next
+
+https://nextjs.org/docs/messages/module-not-found 
+⨯ ./Desktop/Programming Hero/Milestone 8/libris-next/src/app/(main)/all-books/page.jsx:4:1
+Module not found: Can't resolve '@/components/AnimatedIn'
+  2 | import FilterBooks from '@/components/FilterBooks';
+  3 | import SearchBooks from '@/components/SearchBooks';
+> 4 | import AnimatedIn from '@/components/AnimatedIn';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import React from 'react';
+  6 |
+  7 | const getBooks = async () => {
+
+Import map: aliased to relative './src/components/AnimatedIn' inside of [project]/Desktop/Programming Hero/Milestone 8/libris-next
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[browser] ./Desktop/Programming Hero/Milestone 8/libris-next/src/app/(main)/all-books/page.jsx:4:1
+Module not found: Can't resolve '@/components/AnimatedIn'
+  2 | import FilterBooks from '@/components/FilterBooks';
+  3 | import SearchBooks from '@/components/SearchBooks';
+> 4 | import AnimatedIn from '@/components/AnimatedIn';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import React from 'react';
+  6 |
+  7 | const getBooks = async () => {
+
+Import map: aliased to relative './src/components/AnimatedIn' inside of [project]/Desktop/Programming Hero/Milestone 8/libris-next
+
+https://nextjs.org/docs/messages/module-not-found 
+ GET /all-books 500 in 147ms (next.js: 57ms, application-code: 90ms)
+[browser] Uncaught Error: ./Desktop/Programming Hero/Milestone 8/libris-next/src/app/(main)/all-books/page.jsx:4:1
+Module not found: Can't resolve '@/components/AnimatedIn'
+  2 | import FilterBooks from '@/components/FilterBooks';
+  3 | import SearchBooks from '@/components/SearchBooks';
+> 4 | import AnimatedIn from '@/components/AnimatedIn';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import React from 'react';
+  6 |
+  7 | const getBooks = async () => {
+
+Import map: aliased to relative './src/components/AnimatedIn' inside of [project]/Desktop/Programming Hero/Milestone 8/libris-next
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+    at <unknown> (Error: ./Desktop/Programming Hero/Milestone 8/libris-next/src/app/(main)/all-books/page.jsx:4:1)
+    at <unknown> (https://nextjs.org/docs/messages/module-not-found)
+    at <unknown> (Error: (./Desktop/Programming Hero/Milestone 8/libris-next/src/app/(main)/all-books/page.jsx:4:1)
+    at <unknown> (https://nextjs.org/docs/messages/module-not-found)
+[browser] ./Desktop/Programming Hero/Milestone 8/libris-next/src/app/(main)/all-books/page.jsx:4:1
+Module not found: Can't resolve '@/components/AnimatedIn'
+  2 | import FilterBooks from '@/components/FilterBooks';
+  3 | import SearchBooks from '@/components/SearchBooks';
+> 4 | import AnimatedIn from '@/components/AnimatedIn';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import React from 'react';
+  6 |
+  7 | const getBooks = async () => {
+
+Import map: aliased to relative './src/components/AnimatedIn' inside of [project]/Desktop/Programming Hero/Milestone 8/libris-next
+
+https://nextjs.org/docs/messages/module-not-found 
+[browser] ./Desktop/Programming Hero/Milestone 8/libris-next/src/app/(main)/all-books/page.jsx:4:1
+Module not found: Can't resolve '@/components/AnimatedIn'
+  2 | import FilterBooks from '@/components/FilterBooks';
+  3 | import SearchBooks from '@/components/SearchBooks';
+> 4 | import AnimatedIn from '@/components/AnimatedIn';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import React from 'react';
+  6 |
+  7 | const getBooks = async () => {
+
+Import map: aliased to relative './src/components/AnimatedIn' inside of [project]/Desktop/Programming Hero/Milestone 8/libris-next
+
+https://nextjs.org/docs/messages/module-not-found 
+⨯ ./Desktop/Programming Hero/Milestone 8/libris-next/src/app/(main)/all-books/page.jsx:4:1
+Module not found: Can't resolve '@/components/AnimatedIn'
+  2 | import FilterBooks from '@/components/FilterBooks';
+  3 | import SearchBooks from '@/components/SearchBooks';
+> 4 | import AnimatedIn from '@/components/AnimatedIn';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import React from 'react';
+  6 |
+  7 | const getBooks = async () => {
+
+Import map: aliased to relative './src/components/AnimatedIn' inside of [project]/Desktop/Programming Hero/Milestone 8/libris-next
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+ GET /all-books 500 in 87ms (next.js: 36ms, application-code: 52ms)
+[browser] ./Desktop/Programming Hero/Milestone 8/libris-next/src/app/(main)/all-books/page.jsx:4:1
+Module not found: Can't resolve '@/components/AnimatedIn'
+  2 | import FilterBooks from '@/components/FilterBooks';
+  3 | import SearchBooks from '@/components/SearchBooks';
+> 4 | import AnimatedIn from '@/components/AnimatedIn';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import React from 'react';
+  6 |
+  7 | const getBooks = async () => {
+
+Import map: aliased to relative './src/components/AnimatedIn' inside of [project]/Desktop/Programming Hero/Milestone 8/libris-next
+
+https://nextjs.org/docs/messages/module-not-found 
+[browser] Uncaught Error: ./Desktop/Programming Hero/Milestone 8/libris-next/src/app/(main)/all-books/page.jsx:4:1
+Module not found: Can't resolve '@/components/AnimatedIn'
+  2 | import FilterBooks from '@/components/FilterBooks';
+  3 | import SearchBooks from '@/components/SearchBooks';
+> 4 | import AnimatedIn from '@/components/AnimatedIn';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import React from 'react';
+  6 |
+  7 | const getBooks = async () => {
+
+Import map: aliased to relative './src/components/AnimatedIn' inside of [project]/Desktop/Programming Hero/Milestone 8/libris-next
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+    at <unknown> (Error: ./Desktop/Programming Hero/Milestone 8/libris-next/src/app/(main)/all-books/page.jsx:4:1)
+    at <unknown> (https://nextjs.org/docs/messages/module-not-found)
+    at <unknown> (Error: (./Desktop/Programming Hero/Milestone 8/libris-next/src/app/(main)/all-books/page.jsx:4:1)
+    at <unknown> (https://nextjs.org/docs/messages/module-not-found)
+[browser] ./Desktop/Programming Hero/Milestone 8/libris-next/src/app/(main)/all-books/page.jsx:4:1
+Module not found: Can't resolve '@/components/AnimatedIn'
+  2 | import FilterBooks from '@/components/FilterBooks';
+  3 | import SearchBooks from '@/components/SearchBooks';
+> 4 | import AnimatedIn from '@/components/AnimatedIn';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import React from 'react';
+  6 |
+  7 | const getBooks = async () => {
+
+Import map: aliased to relative './src/components/AnimatedIn' inside of [project]/Desktop/Programming Hero/Milestone 8/libris-next
+
+https://nextjs.org/docs/messages/module-not-found 
+[browser] ./Desktop/Programming Hero/Milestone 8/libris-next/src/app/(main)/all-books/page.jsx:4:1
+Module not found: Can't resolve '@/components/AnimatedIn'
+  2 | import FilterBooks from '@/components/FilterBooks';
+  3 | import SearchBooks from '@/components/SearchBooks';
+> 4 | import AnimatedIn from '@/components/AnimatedIn';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import React from 'react';
+  6 |
+  7 | const getBooks = async () => {
+
+Import map: aliased to relative './src/components/AnimatedIn' inside of [project]/Desktop/Programming Hero/Milestone 8/libris-next
+
+https://nextjs.org/docs/messages/module-not-found 
+[browser] ./Desktop/Programming Hero/Milestone 8/libris-next/src/app/(main)/all-books/page.jsx:4:1
+Module not found: Can't resolve '@/components/AnimatedIn'
+  2 | import FilterBooks from '@/components/FilterBooks';
+  3 | import SearchBooks from '@/components/SearchBooks';
+> 4 | import AnimatedIn from '@/components/AnimatedIn';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import React from 'react';
+  6 |
+  7 | const getBooks = async () => {
+
+Import map: aliased to relative './src/components/AnimatedIn' inside of [project]/Desktop/Programming Hero/Milestone 8/libris-next
+
+https://nextjs.org/docs/messages/module-not-found 
+[browser] ./Desktop/Programming Hero/Milestone 8/libris-next/src/app/(main)/all-books/page.jsx:4:1
+Module not found: Can't resolve '@/components/AnimatedIn'
+  2 | import FilterBooks from '@/components/FilterBooks';
+  3 | import SearchBooks from '@/components/SearchBooks';
+> 4 | import AnimatedIn from '@/components/AnimatedIn';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import React from 'react';
+  6 |
+  7 | const getBooks = async () => {
+
+Import map: aliased to relative './src/components/AnimatedIn' inside of [project]/Desktop/Programming Hero/Milestone 8/libris-next
+
+https://nextjs.org/docs/messages/module-not-found 
+[browser] ./Desktop/Programming Hero/Milestone 8/libris-next/src/app/(main)/all-books/page.jsx:4:1
+Module not found: Can't resolve '@/components/AnimatedIn'
+  2 | import FilterBooks from '@/components/FilterBooks';
+  3 | import SearchBooks from '@/components/SearchBooks';
+> 4 | import AnimatedIn from '@/components/AnimatedIn';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import React from 'react';
+  6 |
+  7 | const getBooks = async () => {
+
+Import map: aliased to relative './src/components/AnimatedIn' inside of [project]/Desktop/Programming Hero/Milestone 8/libris-next
+
+https://nextjs.org/docs/messages/module-not-found 
+[browser] ./Desktop/Programming Hero/Milestone 8/libris-next/src/app/(main)/all-books/page.jsx:4:1
+Module not found: Can't resolve '@/components/AnimatedIn'
+  2 | import FilterBooks from '@/components/FilterBooks';
+  3 | import SearchBooks from '@/components/SearchBooks';
+> 4 | import AnimatedIn from '@/components/AnimatedIn';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import React from 'react';
+  6 |
+  7 | const getBooks = async () => {
+
+Import map: aliased to relative './src/components/AnimatedIn' inside of [project]/Desktop/Programming Hero/Milestone 8/libris-next
+
+https://nextjs.org/docs/messages/module-not-found 
+[browser] ./Desktop/Programming Hero/Milestone 8/libris-next/src/app/(main)/all-books/page.jsx:4:1
+Module not found: Can't resolve '@/components/AnimatedIn'
+  2 | import FilterBooks from '@/components/FilterBooks';
+  3 | import SearchBooks from '@/components/SearchBooks';
+> 4 | import AnimatedIn from '@/components/AnimatedIn';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import React from 'react';
+  6 |
+  7 | const getBooks = async () => {
+
+Import map: aliased to relative './src/components/AnimatedIn' inside of [project]/Desktop/Programming Hero/Milestone 8/libris-next
+
+https://nextjs.org/docs/messages/module-not-found 
+[browser] ./Desktop/Programming Hero/Milestone 8/libris-next/src/app/(main)/all-books/page.jsx:4:1
+Module not found: Can't resolve '@/components/AnimatedIn'
+  2 | import FilterBooks from '@/components/FilterBooks';
+  3 | import SearchBooks from '@/components/SearchBooks';
+> 4 | import AnimatedIn from '@/components/AnimatedIn';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import React from 'react';
+  6 |
+  7 | const getBooks = async () => {
+
+Import map: aliased to relative './src/components/AnimatedIn' inside of [project]/Desktop/Programming Hero/Milestone 8/libris-next
+
+https://nextjs.org/docs/messages/module-not-found 
+[browser] ./Desktop/Programming Hero/Milestone 8/libris-next/src/app/(main)/all-books/page.jsx:4:1
+Module not found: Can't resolve '@/components/AnimatedIn'
+  2 | import FilterBooks from '@/components/FilterBooks';
+  3 | import SearchBooks from '@/components/SearchBooks';
+> 4 | import AnimatedIn from '@/components/AnimatedIn';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import React from 'react';
+  6 |
+  7 | const getBooks = async () => {
+
+Import map: aliased to relative './src/components/AnimatedIn' inside of [project]/Desktop/Programming Hero/Milestone 8/libris-next
+
+https://nextjs.org/docs/messages/module-not-found 
+[browser] ./Desktop/Programming Hero/Milestone 8/libris-next/src/app/(main)/all-books/page.jsx:4:1
+Module not found: Can't resolve '@/components/AnimatedIn'
+  2 | import FilterBooks from '@/components/FilterBooks';
+  3 | import SearchBooks from '@/components/SearchBooks';
+> 4 | import AnimatedIn from '@/components/AnimatedIn';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import React from 'react';
+  6 |
+  7 | const getBooks = async () => {
+
+Import map: aliased to relative './src/components/AnimatedIn' inside of [project]/Desktop/Programming Hero/Milestone 8/libris-next
+
+https://nextjs.org/docs/messages/module-not-found 
+⨯ ./Desktop/Programming Hero/Milestone 8/libris-next/src/app/(main)/all-books/page.jsx:4:1
+Module not found: Can't resolve '@/components/AnimatedIn'
+  2 | import FilterBooks from '@/components/FilterBooks';
+  3 | import SearchBooks from '@/components/SearchBooks';
+> 4 | import AnimatedIn from '@/components/AnimatedIn';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import React from 'react';
+  6 |
+  7 | const getBooks = async () => {
+
+Import map: aliased to relative './src/components/AnimatedIn' inside of [project]/Desktop/Programming Hero/Milestone 8/libris-next
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+ GET /all-books 500 in 140ms (next.js: 83ms, application-code: 57ms)
+[browser] ./Desktop/Programming Hero/Milestone 8/libris-next/src/app/(main)/all-books/page.jsx:4:1
+Module not found: Can't resolve '@/components/AnimatedIn'
+  2 | import FilterBooks from '@/components/FilterBooks';
+  3 | import SearchBooks from '@/components/SearchBooks';
+> 4 | import AnimatedIn from '@/components/AnimatedIn';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import React from 'react';
+  6 |
+  7 | const getBooks = async () => {
+
+Import map: aliased to relative './src/components/AnimatedIn' inside of [project]/Desktop/Programming Hero/Milestone 8/libris-next
+
+https://nextjs.org/docs/messages/module-not-found 
+[browser] Uncaught Error: ./Desktop/Programming Hero/Milestone 8/libris-next/src/app/(main)/all-books/page.jsx:4:1
+Module not found: Can't resolve '@/components/AnimatedIn'
+  2 | import FilterBooks from '@/components/FilterBooks';
+  3 | import SearchBooks from '@/components/SearchBooks';
+> 4 | import AnimatedIn from '@/components/AnimatedIn';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import React from 'react';
+  6 |
+  7 | const getBooks = async () => {
+
+Import map: aliased to relative './src/components/AnimatedIn' inside of [project]/Desktop/Programming Hero/Milestone 8/libris-next
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+    at <unknown> (Error: ./Desktop/Programming Hero/Milestone 8/libris-next/src/app/(main)/all-books/page.jsx:4:1)
+    at <unknown> (https://nextjs.org/docs/messages/module-not-found)
+    at <unknown> (Error: (./Desktop/Programming Hero/Milestone 8/libris-next/src/app/(main)/all-books/page.jsx:4:1)
+    at <unknown> (https://nextjs.org/docs/messages/module-not-found)
+[browser] ./Desktop/Programming Hero/Milestone 8/libris-next/src/app/(main)/all-books/page.jsx:4:1
+Module not found: Can't resolve '@/components/AnimatedIn'
+  2 | import FilterBooks from '@/components/FilterBooks';
+  3 | import SearchBooks from '@/components/SearchBooks';
+> 4 | import AnimatedIn from '@/components/AnimatedIn';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import React from 'react';
+  6 |
+  7 | const getBooks = async () => {
+
+Import map: aliased to relative './src/components/AnimatedIn' inside of [project]/Desktop/Programming Hero/Milestone 8/libris-next
+
+https://nextjs.org/docs/messages/module-not-found 
+[browser] ./Desktop/Programming Hero/Milestone 8/libris-next/src/app/(main)/all-books/page.jsx:4:1
+Module not found: Can't resolve '@/components/AnimatedIn'
+  2 | import FilterBooks from '@/components/FilterBooks';
+  3 | import SearchBooks from '@/components/SearchBooks';
+> 4 | import AnimatedIn from '@/components/AnimatedIn';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import React from 'react';
+  6 |
+  7 | const getBooks = async () => {
+
+Import map: aliased to relative './src/components/AnimatedIn' inside of [project]/Desktop/Programming Hero/Milestone 8/libris-next
+
+https://nextjs.org/docs/messages/module-not-found 
+[browser] ./Desktop/Programming Hero/Milestone 8/libris-next/src/app/(main)/all-books/page.jsx:4:1
+Module not found: Can't resolve '@/components/AnimatedIn'
+  2 | import FilterBooks from '@/components/FilterBooks';
+  3 | import SearchBooks from '@/components/SearchBooks';
+> 4 | import AnimatedIn from '@/components/AnimatedIn';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import React from 'react';
+  6 |
+  7 | const getBooks = async () => {
+
+Import map: aliased to relative './src/components/AnimatedIn' inside of [project]/Desktop/Programming Hero/Milestone 8/libris-next
+
+https://nextjs.org/docs/messages/module-not-found 
+✓ Compiled in 272ms
+ GET /all-books 200 in 1551ms (next.js: 32ms, application-code: 1519ms)
+[browser] If you do not provide a visible label, you must specify an aria-label or aria-labelledby attribute for accessibility
+[browser] Image with src "https://covers.openlibrary.org/b/isbn/9780525559474-L.jpg" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[browser] If you do not provide a visible label, you must specify an aria-label or aria-labelledby attribute for accessibility
+ GET /api/auth/get-session 200 in 2.6s (next.js: 1121ms, application-code: 1470ms)
+ GET /api/auth/get-session 200 in 259ms (next.js: 39ms, application-code: 220ms)
+ GET /api/auth/get-session 200 in 224ms (next.js: 12ms, application-code: 212ms)
+ GET /all-books 200 in 1112ms (next.js: 15ms, application-code: 1097ms)
+[browser] If you do not provide a visible label, you must specify an aria-label or aria-labelledby attribute for accessibility
+[browser] If you do not provide a visible label, you must specify an aria-label or aria-labelledby attribute for accessibility
+ GET /api/auth/get-session 200 in 248ms (next.js: 39ms, application-code: 209ms)
+[browser] Image with src "https://covers.openlibrary.org/b/isbn/9780525559474-L.jpg" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+
+                                                                                
+
+_**User (2026-05-04 13:02:11Z)**_
+
+make this section in browseCategories.jsx and logic would be similar to filter books. clicking on any categories should take to that category in the all books section
+
+_**User (2026-05-04 13:04:25Z)**_
+
+Failed to parse URL from /category.json
+
+---
+
+_**Agent (copilot/auto)**_
+
+<think><details><summary>Thought Process</summary>
+Adjusting the category fetch to use a fully qualified URL so Next.js can resolve it correctly.
+</details></think>
+
+_**Agent (copilot/auto)**_
+
+<tool-use data-tool-type="generic" data-tool-name="replace_string_in_file"><details>
+<summary>Tool use: **replace_string_in_file**</summary>
+
+**Input:**
+
+- filePath: `c:\Users\KIIT\Desktop\Programming Hero\Milestone 8\libris-next\src\components\shared\BrowseCategories.jsx`
+- newString:
+
+```
+const BrowseCategories = async () => {
+    const res = await fetch('https://libris-next.vercel.app/category.json', { next: { revalidate: 60 } });
+    const categories = await res.json();
+
+    return (
+
+```
+
+- oldString:
+
+```
+const BrowseCategories = async () => {
+    const res = await fetch('/category.json', { next: { revalidate: 60 } });
+    const categories = await res.json();
+
+    return (
+
+```
+
+
+</details></tool-use>
+
+_**Agent (copilot/auto)**_
+
+**Fixing fetch issue in Next.js**
+
+I need to address the issue with fetching categories in a Next.js server component. The current relative fetch('/category.json') doesn’t seem to be working because absolute or relative fetch options may not function correctly. I might need to use something like `fetch(new URL('/category.json', process.env.NEXT_PUBLIC_BASE_URL))` for proper context or explore using a full URL. Since it's an async component on the server, absolute URLs are likely needed. I could replicate the approach used for other remote JSON data.
+
+---
+
+_**User (2026-05-04 13:05:52Z)**_
+
+remove all books keep only categories
+
+---
+
+_**Agent (copilot/auto)**_
+
+**Updating BrowseCategories**
+
+I need to modify BrowseCategories.jsx to either remove all book cards or just keep the categories, as the user requested. I’ll inspect the current file to understand its state, just to be sure nothing has changed. I might read the file and then use a replace function for the necessary changes. An update on the process will be brief, so I’ve got to do that reading now!
+
+---
+
+_**User (2026-05-04 13:28:52Z)**_
+
+add metadata to allbooks page, my profile page 
+
+---
+
+_**Agent (copilot/auto)**_
+
+**Inspections for metadata update**
+
+I need to add metadata to some pages, so I’ll first inspect the current page files. It looks like I’ll probably use the Next 13 app router’s metadata export. I might need to update `src/app/(main)/all-books/page.jsx` and `src/app/(main)/profile/page.jsx`. I should be careful with the existing file contents, so my next step will be to use `read_file` to check those two files.
+
+---
+
+_**User (2026-05-04 13:31:14Z)**_
+
+client page cant have meta data?
+
+---
+
+_**Agent (copilot/auto)**_
+
+Yes — in Next.js App Router, `metadata` exports only work in server components.
+
+Because `src/app/(main)/profile/page.jsx` starts with `'use client'`, it becomes a client component, so `export const metadata = ...` is not supported there.
+
+### What to do
+- keep the page as a server component and render a client-only component inside it
+- or move the metadata to a parent `layout.js`/`layout.jsx`
+
+Example:
+
+```jsx
+// src/app/(main)/profile/page.jsx
+import ProfileClient from '@/components/ProfileClient';
+
+export const metadata = {
+  title: 'My Profile | Libris',
+  description: 'View and update your Libris account details.',
+};
+
+export default function ProfilePage() {
+  return <ProfileClient />;
+}
+```
+
+```jsx
+// src/components/ProfileClient.jsx
+'use client';
+
+import { UpdateUserModal } from '@/components/UpdateUserModal';
+...
+```
+
+So yes — a client page itself cannot carry `metadata`.
+
+---
+
+_**User (2026-05-04 13:34:42Z)**_
+
+check if anything missed in my project, here's the requirements of this project:
+Online Book Borrowing Platform 
+
+🚩🚩Explanation Video
+Project Theme
+A seamless and modern web application designed to digitize the traditional library experience. Users can explore a vast collection of books, filter by categories, and borrow titles digitally. The platform prioritizes security and performance using BetterAuth, Next.js, and MongoDB.
+
+Key Things you have must to do
+
+GitHub Commits: Include at least 10 meaningful commits with descriptive messages.
+Readme.md: Include a README file with the project name, purpose, live URL, key features, and any npm packages you have used.
+Responsiveness: Ensure the website is fully responsive on mobile, tablet, and desktop.
+Environment Variables: Secure configuration keys using environment variables.
+Unique Design:  Create a unique design that goes with the given Concept. You can use this blog for these kinds of resources 
+Host your Application:  You can choose deployment systems  like vercel, render for hosting . As you are developing a single page application 
+ensure that  page doesn't throw any error on reloading from any routes.  
+
+Main Requirements
+``1. Layout Structure
+Header (Navbar): * Left: Website Logo (links to Home).
+Center: Navigation links for Home, All Books, and My Profile.
+Right: Conditional rendering—If logged out, show Login. If logged in, show the User’s Name and a Logout button.
+Footer: A custom-designed footer featuring social media links and a "Contact Us" section.
+2. JSON Data Generation
+
+ To create data , use the following structure:
+{
+id,
+title,
+author,
+description,
+category,
+available_quantity,
+image_url
+}
+
+ You can use this as a prompt for ChatGPT/Gemini:
+"Generate a JSON array of 12 book objects. Each object must include: id, title, author, description, category (choose from Story, Tech, Science), available_quantity (integer), and image_url."
+
+3. Home
+Banner: A large "Find Your Next Read" heading with a "Browse Now" button leading to the All Books page.
+Marquee: A scrolling line of text showing "New Arrivals: [Book Name] | Special Discount on Memberships..."
+Featured Books: A section showing the top 4 books fetched from the server(json-server/local data). Each card must have a "View Details" button.
+Add two more extra sections. Implement them with your own ideas.
+4. Authentication
+
+User Login
+The user will  show  a Login page with a form , so that the user can Log in this application. 
+Show a Title for Login.  & Form with following fields 
+( Email , Password , Login button ) 
+
+If the user Login successfully then 
+navigate him to his Home page.
+If not, show him an error with toast / error message anywhere in the form.
+
+There will be some other options like 
+Show the user a Link for Register  so that he can go to the register page. 
+Show users a Social Login Button ( Google only ) . on Clicking it 
+user authenticate with Google
+ Navigate him to  his Home page.
+ 
+User Registration
+Create a register page with a form , so that the user can register himself in this application. 
+Show a Title for registration and a Form with following fields
+( Name , Email, Photo-url(link), Password & Register Button ) 
+
+If the user Register successfully then 
+navigate him to his login page.
+If not, show him an error with toast / error message anywhere in the form.
+
+
+There will be some other options like 
+Show the user a Link for Login so that he can go to the Login page. 
+Show users a Social Login Button ( Google only ) . on Clicking it 
+user authenticate with Google
+Navigate the user to the Home page.
+
+ 💡Don’t implement email verification or forget password method as it will inconvenience the examiner. If you want, you can add these after receiving the assignment result.
+
+5. All Books Page 
+Search Bar: A large input at the top to search for books by title.
+Book Cards: Display:
+Book Image & Title.
+"Details" Button: Navigates to the specific Book Details page.
+
+
+
+ 6. Single Book Details Page(PRIVATE ROUTE)
+Access: Only logged-in users can view this
+Visuals: Large Book Cover on the left, text/details on the right.
+Info: Title, Author, Description, and Available Quantity (e.g., "5 copies left").
+The Action Button:
+"Borrow This Book" Button:
+If Logged Out: Redirects to the Login page.
+Show a confirmation toast.
+
+7. My Profile(PRIVATE ROUTE)
+Access: Only logged-in users can view this
+Show all user information
+Challenges 
+1. Update Information Feature
+In My Profile route there will be an update button. On clicking it,  Take user to another route 
+Show user a form with 2 input field ( image and Name ) 
+An Update Information button.
+
+Follow this documentation: https://better-auth.com/docs/concepts/users-accounts#update-user 
+2. Category Sidebar: A functional left sidebar on the "All Books" page to filter books by category(e.g., Story, Tech, Science).
+3.  Implement any one npm package from the following
+Animate.css, 
+React-Spring
+swiperjs
+
+
+Tech Stack: 
+Next JS
+Tailwind CSS
+DaisyUI/HeroUI
+BetterAuth
+
+
+---
+
+_**Agent (copilot/auto)**_
+
+**Inspecting project requirements**
+
+I need to compare the project with its requirements and identify any missing items. I should use tools to inspect relevant files, possibly even commit data. It looks like the user's terminal isn't currently running the dev server. I may need to read through various files like the app layout, navigation, home, authentication pages, and others to see if they align with the requested features. I'll focus on gathering the essential files, and use parallel reading to help streamline the process.
