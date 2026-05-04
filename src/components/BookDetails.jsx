@@ -37,7 +37,7 @@ const BookDetails = ({ book }) => {
                         width={300}
                         height={300}
                         unoptimized
-                        className="rounded-2xl w-56 sm:w-64 md:w-72 lg:w-[300px] h-auto"
+                        className="rounded-2xl w-56 sm:w-64 md:w-72 lg:w-75 h-auto"
                     />
                 </div>
 

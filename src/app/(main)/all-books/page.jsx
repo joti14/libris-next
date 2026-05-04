@@ -3,6 +3,11 @@ import FilterBooks from '@/components/FilterBooks';
 import SearchBooks from '@/components/SearchBooks';
 import React from 'react';
 
+export const metadata = {
+  title: 'All Books | Libris',
+  description: 'Browse all books by category, search titles and authors, and discover your next read.',
+};
+
 const getBooks = async () => {
   const res = await fetch('https://libris-next.vercel.app/data.json');
   const data = await res.json();
@@ -11,7 +16,7 @@ const getBooks = async () => {
 
 const AllBooksPage = async ({ searchParams }) => {
   const books = await getBooks();
-  const { category, search } = await searchParams;
+  const { category, search } = searchParams;
 
   let filteredBooks = books;
 

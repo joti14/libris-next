@@ -11,16 +11,18 @@ import {
     TextField,
 } from "@heroui/react";
 import { Icon } from "@iconify/react";
+import { useRouter } from "next/navigation";
 import { useState } from "react";
 import { useForm } from "react-hook-form";
 import { FaEye, FaEyeSlash } from "react-icons/fa";
 import { toast } from "react-toastify";
 
 export default function SignUpPage() {
+    const router = useRouter();
     const { register, handleSubmit } = useForm();
     const [showPassword, setShowPassword] = useState(false);
 
-    const handleSignIn = async (data) => {
+    const handleSignUp = async (data) => {
         const { email, name, password, image } = data;
 
         const { data: res, error } = await authClient.signUp.email({
@@ -32,11 +34,12 @@ export default function SignUpPage() {
         });
 
         if (error) {
-            toast.error(error.message);
+            toast.error(error.message || "Unable to sign up. Please try again.");
+            return;
         }
-        if (res) {
-            toast.success("Signup Successful");
-        }
+
+        toast.success("Signup successful! Redirecting to login...");
+        router.push("/signin");
     };
 
     const handleGoogleSignIn = async () => {
@@ -52,7 +55,7 @@ export default function SignUpPage() {
 
             <Form
                 className="flex w-full max-w-96 mx-auto flex-col gap-4 mt-4"
-                onSubmit={handleSubmit(handleSignIn)}
+                onSubmit={handleSubmit(handleSignUp)}
             >
                 <TextField isRequired type="text">
                     <Label>Name</Label>

@@ -12,6 +12,7 @@ import {
 } from "@heroui/react";
 import { Icon } from "@iconify/react";
 import Link from "next/link";
+import { useRouter } from "next/navigation";
 import { useState } from "react";
 import { useForm } from "react-hook-form";
 import { FaEye, FaEyeSlash } from "react-icons/fa";
@@ -21,8 +22,9 @@ export default function SignInPage() {
     const { register, handleSubmit } = useForm();
     const [showPassword, setShowPassword] = useState(false);
 
+    const router = useRouter();
+
     const handleSignIn = async (data) => {
-        console.log(data, "data");
         const { email, password } = data;
 
         const { data: res, error } = await authClient.signIn.email({
@@ -31,11 +33,20 @@ export default function SignInPage() {
             rememberMe: true,
             callbackURL: "/",
         });
-        console.log(res, error);
+
+        if (error) {
+            toast.error(error.message || "Unable to sign in. Please try again.");
+            return;
+        }
+
+        toast.success("Signed in successfully!", {
+            className: "bg-zinc-900 text-slate-300 rounded-2xl border-zinc-700",
+        });
+        router.push("/");
     };
 
     const handleGoogleSignIn = async () => {
-        const data = await authClient.signIn.social({
+        await authClient.signIn.social({
             provider: "google",
         });
     };
@@ -100,12 +111,6 @@ export default function SignInPage() {
                 </TextField>
 
                 <Button
-                    onClick={() =>
-                        toast.success("Signed In Successfully!", {
-                            className:
-                                "bg-zinc-900 text-slate-300 rounded-2xl border-zinc-700",
-                        })
-                    }
                     type="submit"
                     className="w-full bg-red-800 hover:bg-red-700"
                 >
