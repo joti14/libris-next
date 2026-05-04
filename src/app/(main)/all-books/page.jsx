@@ -62,7 +62,7 @@ const AllBooksPage = async ({ searchParams }) => {
             </div>
 
             {filteredBooks.length > 0 ? (
-              <div className="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-4 gap-4 sm:gap-5 lg:gap-6">
+              <div className="mb-10 grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-4 gap-4 sm:gap-5 lg:gap-6">
                 {filteredBooks.map(book => (
                   <Books key={book.id} book={book} />
                 ))}
