@@ -105,7 +105,7 @@ export default function SignUpPage() {
                         {...register("password")}
                     />
                     <span
-                        className="absolute right-3 top-8 cursor-pointer"
+                        className="absolute right-20 top-9 cursor-pointer"
                         onClick={() => setShowPassword(!showPassword)}
                     >
                         {showPassword ? (
